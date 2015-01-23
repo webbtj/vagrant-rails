@@ -69,11 +69,11 @@ Vagrant.configure("2") do |config|
           {
             :user   => "vagrant",
             :rubies => [
-              "2.1.1"
+              "2.2.0"
             ],
-            :global => "2.1.1",
+            :global => "2.2.0",
             :gems => {
-              '2.1.1' => [
+              '2.2.0' => [
                 { :name => 'bundler', :version => '~> 1.6.2'},
                 { :name => 'rails', :version => '~> 4.2.0'}
               ]
